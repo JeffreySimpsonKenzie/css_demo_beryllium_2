@@ -1,0 +1,45 @@
+/* This will give styling to all elements. Good for setting default styling. */
+* {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  /* border: 5px solid red; */
+}
+
+:root {
+  /* border: 3px solid red; */
+  --dark-gray: rgb(49, 49, 49);
+}
+
+/* Will style any element with this class */
+.cool {
+  color: rebeccapurple;
+  background: lightgreen;
+  border: 2px groove gold;
+  width: fit-content;
+  padding: 5px;
+}
+
+/* The h1's selector */
+h1 {
+  border: 2px solid red;
+  padding: 3px;
+  width: fit-content;
+}
+
+/* The h1's class */
+.page-heading {
+  border: 2px solid blue;
+}
+
+/* The h1's id selector */
+#page-heading {
+  border: 2px solid green;
+}
+
+.correct-answer {
+  color: green;
+}
+
+.wrong-answer {
+  color: red;
+}
