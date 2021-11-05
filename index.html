@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>NO POINTS FOR PRETTY!</h1>
+    <div class="background-solid">
+    <h1 >NO POINTS FOR PRETTY!</h1>
+
     <h1 class="page-heading" id="page-heading" >Quiz Game</h1> 
-    <button class="add-style">Add Style</button>
+    <button class="add-style quiz-button">Add Style</button>
     <h2 class="score-element">Score: 3</h2>
     <div class="question-box" id="question-box">
         <h3>Category: Coding</h3>
@@ -19,11 +21,12 @@
     </div>
     <form class="answer-form">
         <input type="text" name="answer" id="answer-input" placeholder="Type answer here..." required>
-        <button type="submit" class="answer-submit">Submit Answer</button>
+        <button type="submit" class="answer-submit quiz-button">Submit Answer</button>
     </form>
 
-    <button class="next-question">Next Question</button>
+    <button class="next-question quiz-button">Next Question</button>
 
     <script src="code.js"></script>
+</div>
 </body>
 </html>

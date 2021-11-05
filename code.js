@@ -21,6 +21,7 @@ console.log(questionBox);
 
 // Style elements directly in JavaScript
 // pageHeading.style.border = "2px solid yellow";
+// questionBox.style.border = "2px solid var(--tan)";
 
 /* ADD CLASSES TO GIVE STYLE */
 
@@ -30,10 +31,11 @@ styleButton.addEventListener("click", () =>
 );
 
 // Use if statements to give a class for styling
-let isCorrect = "";
+let isCorrect = false;
 
 if (isCorrect === true) {
   resultElement.classList.toggle("correct-answer");
+  scoreElement.classList.toggle("blue");
 } else if (isCorrect === false) {
   resultElement.classList.toggle("wrong-answer");
 }
